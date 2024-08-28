@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+.cart-container{
+
+  width: 100%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  
+}
+
+.heading{
+  text-align: center;
+  font-weight: 900;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.card{
+  flex-basis: 24%;
+  padding: 10px 10px;
+  box-shadow: 2px 2px 10px gray;
+  text-align: center;
+  margin: 10px 1px;
+
+ 
+}
+
+.card .image img{
+ width: 100px;
+ height: 100px;
+}
+
+.Type-container{
+  background-color: rgb(96, 158, 96);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  margin-top: 10px;
+}
+
+.pokemon-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+  padding: 0 10px;
+
+}
+
+.pokemon-info .info span{
+  font-weight: 700;
+}
+
+.search-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-container input{
+  padding: 10px;
+  /* border-radius: 20px; */
+  border: none;
+  outline: none;
+border: 2px solid green;
+  box-shadow: 20px 20px 60px gray;
+}
